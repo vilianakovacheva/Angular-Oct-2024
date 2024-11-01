@@ -1,0 +1,9 @@
+<div id="wrapper">
+    <h3>My users list:</h3>
+    <ul>
+        @for (user of users; track $index) {
+            <!-- <li>Name: {{user.name}}, age: {{user.age}}</li> -->
+            <app-user-item [userProp]="user" />
+        }
+    </ul>
+</div>

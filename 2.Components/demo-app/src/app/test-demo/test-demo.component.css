@@ -1,0 +1,47 @@
+#numbers-wrapper {
+    background-color: rgb(186, 184, 183);
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: fit-content;
+}
+
+.num {
+    color: #fff;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.red {
+    background-color: rgb(121, 7, 7);
+}
+
+.border-black {
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.wrapper {
+    width: 300px;
+    height: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.random-red {
+    border: 3px solid red;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.random-green {
+    border: 3px solid green;
+    border-radius: 50px;
+    text-align: center;
+}

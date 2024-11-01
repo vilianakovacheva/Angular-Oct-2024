@@ -1,0 +1,1 @@
+export const beaverImgSrc = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/640px-American_Beaver.jpg'
