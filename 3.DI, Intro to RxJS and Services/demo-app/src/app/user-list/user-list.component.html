@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <p>This is my users list:</p>
+
+    @for (user of usersList; track $index) {
+    <app-user-item [user]="user" />
+    }
+
+    <button (click)="refreshList()">Refresh List</button>
+
+</div>
