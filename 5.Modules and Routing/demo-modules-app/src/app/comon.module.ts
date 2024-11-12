@@ -7,18 +7,14 @@ import { UserComponent } from './user/user.component';
 import { HeaderComponent } from './header/header.component';
 import { UserModule } from './user/user.module';
 import { HeaderModule } from './header/header.module';
-import { OurCommonModule } from './comon.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    OurCommonModule
+    UserModule,
+    HeaderModule
   ],
-  providers: [UserModule],
-  bootstrap: [AppComponent]
+  providers: [],
+//   exports: [UserModule]
 })
-export class AppModule { }
+export class OurCommonModule { }
