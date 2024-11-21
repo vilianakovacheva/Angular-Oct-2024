@@ -98,9 +98,24 @@
     padding: 0.5em 1.5em;
 }
 
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.red-button {
+    background: red!important;
+}
+
 .green-button {
     background-color: #5cb85c;
     color: white;
     border-radius: 0.5em;
     padding: 0.5em 1.5em;
+}
+
+.error {
+    color: red;
 }
